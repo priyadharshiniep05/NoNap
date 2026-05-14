@@ -1,0 +1,12 @@
+thresholds:
+  ear: 0.25
+  mar: 0.6
+pipeline:
+  consecutive_frames_drowsy: 15
+  consecutive_frames_yawn: 5
+  fps_target: 33
+  clahe:
+    dark_threshold: 80
+    moderate_threshold: 140
+    dark_clip: 4.0
+    moderate_clip: 3.0
